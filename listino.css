@@ -1,0 +1,138 @@
+/* header */
+body {
+    margin: 0;
+    background-color: #f2f2f2;
+    color: rgb(1, 33, 63);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'Abril Fatface';
+}
+
+div {
+    display: block;
+}
+
+header {
+    position: relative;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    width: 100%;
+    font-family: 'Abril Fatface';
+}
+
+header a {
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px;
+text-decoration: none;
+}
+
+header h1 {
+    text-align: center;
+}
+
+/* navbar */
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+
+/* footer */
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+/* content*/
+
+content {
+    width: 50%;
+    margin: 3em 0 0 25%;
+    display: block;
+    padding: 6em 0;
+}
+
+.section {
+    margin-bottom: 5em;
+    display: block;
+    text-align: left;
+    scroll-margin-top: 100px;
+}
+
+.section > h1 {
+    text-align: center;
+}
+
+
+/* box piatto */
+.piatto h1 {
+    margin: 0 0 6px 0;
+    padding: 0;
+    font-size: 1.8em;
+    line-height: 1.2em;
+    color: #683c11;
+}
+
+.piatto > div {
+    width: 90%;
+    display: inline-block;
+}
+
+
+.price::before {
+    content: '€';
+}
+
+.price {
+    float: right;
+    font-size: 1.2em;
+}
+
+.piatto {
+    border-bottom-style: dashed;
+    margin-top : 1em
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+      content {
+        width: 100%;
+        margin-left: 1em;
+        display: block;
+        padding: 3em 0;
+    }
+
+}
+
+/* info */
+info {
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
