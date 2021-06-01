@@ -10,6 +10,7 @@ body {
     background-image: url('./bg.jpg');
     color: rgb(1, 33, 63);
     font-family: 'amatic-sc-custom';
+    font-size: 2.8em
 }
 
 
@@ -21,7 +22,6 @@ header {
     position: relative;
     overflow: hidden;
     width: 100%;
-    font-size: 1.5em;
     text-align:center
 }
 
@@ -37,7 +37,6 @@ text-decoration: none;
 header h1 {
     text-align: center;
     color: rgb(0, 90, 143);
-    font-size: 1.5em
 }
 
 header p {
@@ -90,7 +89,6 @@ content {
     margin-bottom: 5em;
     display: block;
     text-align: left;
-    scroll-margin-top: 100px;
 }
 
 .section > h1 {
@@ -102,14 +100,12 @@ content {
 /* box piatto */
 .piatto {
     margin-top : 2em;
-    font-size: 1.5em;
 }
 
 .piatto h1 {
     display: inline-block;
     margin: 0 0 6px 0;
     padding: 0;
-    font-size: 1.5em;
     line-height: 1.2em;
     color: rgb(0, 0, 73);
     font-family: 'amatic-sc-custom', bold;
