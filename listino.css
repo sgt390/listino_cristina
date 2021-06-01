@@ -1,7 +1,7 @@
 /* header */
 body {
     margin: 0;
-    background-color: black;
+    background-color: #f2f2f2;
     color: rgb(1, 33, 63);
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -70,13 +70,13 @@ footer {
 
 /* content*/
 
+
 content {
     width: 50%;
     margin: 3em 0 0 25%;
     display: block;
     padding: 6em 0;
-}
-
+    }
 .section {
     margin-bottom: 5em;
     display: block;
@@ -118,17 +118,6 @@ content {
     margin-top : 1em
 }
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-      content {
-        width: 100%;
-        margin-left: 1em;
-        display: block;
-        padding: 3em 0;
-    }
-
-}
-
 /* info */
 info {
     width: 100%;
@@ -136,3 +125,30 @@ info {
     display: block;
 }
 
+
+@media only screen and (min-resolution: 2dppx){
+    /* For mobile phones: */
+    content {
+        width: 100%;
+        margin-left: 1em;
+        display: block;
+        padding: 3em 0.3em;
+    }
+  }
+  
+  @media only screen and (max-width: 900px){
+    /* For mobile phones: */
+    content {
+        width: 100%;
+        margin: 0;
+        display: block;
+        padding: 3em 0;
+    }
+
+    .piatto {
+        padding: 1em;
+    }
+    .section {
+        margin-top: 6em;
+    }
+  }
