@@ -130,14 +130,21 @@ info {
     /* For mobile phones: */
     content {
         width: 100%;
-        margin-left: 1em;
+        margin: 0;
         display: block;
-        padding: 3em 0.3em;
+        padding: 3em 0;
+    }
+
+    .piatto {
+        padding: 1em;
+    }
+    .section {
+        margin-top: 6em;
     }
   }
   
   @media only screen and (max-width: 900px){
-    /* For mobile phones: */
+    /* For mobile phones with 1:1 ratio or small screens: */
     content {
         width: 100%;
         margin: 0;
