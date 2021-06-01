@@ -15,7 +15,7 @@ header {
     position: relative;
     overflow: hidden;
     width: 100%;
-    font-size: 2em;
+    font-size: 1.5em;
     text-align:center
 }
 
@@ -111,7 +111,7 @@ content {
 }
 
 .piatto > div {
-    width: 90%;
+    width: 80%;
     display: inline-block;
 }
 
@@ -120,14 +120,11 @@ content {
     content: '€';
 }
 
-.piatto p {
-    font-size: 1.4em
-}
 
 .price {
     float: right;
     font-size: 1em;
-    width: 10%;
+    width: 20%;
     text-align: right
 
 }
@@ -158,6 +155,14 @@ footinfo {
         padding: 1em;
     }
 
+    .piatto > div {
+        width: 90%
+    }
+
+    .piatto .price {
+        width: 10%
+    }
+
     .section {
         margin-top: 10em;
     }
@@ -175,7 +180,13 @@ footinfo {
     .piatto {
         padding: 1em;
     }
+    .piatto > div {
+        width: 90%
+    }
 
+    .piatto .price {
+        width: 10%
+    }
     .section {
         margin-top: 6em;
     }
