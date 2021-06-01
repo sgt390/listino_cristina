@@ -3,7 +3,7 @@ body {
     margin: 0;
     background-image: url('./bg.jpg');
     color: rgb(1, 33, 63);
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Amatic SC';
 }
 
 
@@ -79,6 +79,7 @@ content {
     display: block;
     padding: 6em 0;
     }
+
 .section {
     margin-bottom: 5em;
     display: block;
@@ -105,7 +106,7 @@ content {
     font-size: 1.4em;
     line-height: 1.2em;
     color: rgb(0, 0, 73);
-    font-family: 'Amatic SC', cursive, bold;
+    font-family: 'Amatic SC', bold;
 }
 .piatto h1::after{
     content: ": ";
