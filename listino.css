@@ -133,11 +133,12 @@ info {
         margin: 0;
         display: block;
         padding: 3em 0;
-        font-size: 1.5em;
+        font-size: 1.8em;
     }
 
     .piatto {
         padding: 1em;
+        font-size: 1.6em;
     }
     .section {
         margin-top: 6em;
@@ -151,11 +152,12 @@ info {
         margin: 0;
         display: block;
         padding: 3em 0;
-        font-size: 1.5em;
+        font-size: 1em;
     }
 
     .piatto {
         padding: 1em;
+        font-size: 14px;
     }
     .section {
         margin-top: 6em;
