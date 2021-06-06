@@ -8,8 +8,6 @@
 body {
     margin: 0;
     background-image: url('./bg.jpg');
-    background-repeat: no-repeat;
-    background-size: auto;
     color: rgb(1, 33, 63);
     font-family: 'amatic-sc-custom';
     font-size: 2.8em
@@ -84,7 +82,7 @@ content {
     width: 50%;
     margin: 3em 0 0 25%;
     display: block;
-    padding: 6em 0;
+    padding: .3em 0;
     }
 
 .section {
@@ -246,7 +244,7 @@ footinfo {
         width: 100%;
         margin: 0;
         display: block;
-        padding: 3em 0;
+        padding: .3em 0;
     }
 
     .piatto {
@@ -276,7 +274,7 @@ footinfo {
         width: 100%;
         margin: 0;
         display: block;
-        padding: 3em 0;
+        padding: .3em 0;
     }
 
     .piatto {
