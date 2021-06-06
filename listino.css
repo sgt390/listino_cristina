@@ -8,6 +8,8 @@
 body {
     margin: 0;
     background-image: url('./bg.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
     color: rgb(1, 33, 63);
     font-family: 'amatic-sc-custom';
     font-size: 2.8em
@@ -194,6 +196,8 @@ footinfo {
       position: fixed;
       top: 1em;
       right: 1em;
+      width: 3em;
+      height: 3em;
 }
 
 .bar1, .bar2, .bar3 {
