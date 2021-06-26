@@ -7,10 +7,10 @@
 /* header */
 body {
     margin: 0;
-    background-image: url('./bg.jpg');
     color: rgb(1, 33, 63);
     font-family: 'amatic-sc-custom';
-    font-size: 2.8em
+    font-size: 2.8em;
+    background-color: rgba(190, 233, 250, 0.13)
 }
 
 
@@ -36,7 +36,7 @@ text-decoration: none;
 
 header h1 {
     text-align: center;
-    color: rgb(0, 90, 143);
+    color: rgb(111, 196, 245);
 }
 
 header p {
@@ -79,21 +79,21 @@ footer {
 
 
 content {
-    width: 50%;
+    width: 60%;
     margin: 3em 0 0 25%;
     display: block;
     padding: .3em 0;
     }
 
 .section {
-    margin-bottom: 5em;
+    margin-top: 4em;
     display: block;
     text-align: left;
 }
 
 .section > h1 {
     text-align: center;
-    color: rgb(15, 45, 129);
+    color: rgb(111, 196, 245);
 }
 
 
@@ -101,7 +101,7 @@ content {
 
 /* box piatto */
 .piatto {
-    margin-top : 2em;
+    margin-top : 1em;
 }
 
 .piatto h1 {
@@ -112,13 +112,14 @@ content {
     color: rgb(0, 0, 73);
     font-family: 'amatic-sc-custom', bold;
 }
-.piatto h1::after{
+
+.ingredients::before {
     content: ": ";
     white-space: pre;
 }
 
 .piatto > div {
-    width: 80%;
+    max-width: 80%;
     display: inline-block;
 }
 
@@ -131,19 +132,19 @@ content {
 .price {
     float: right;
     font-size: 1em;
-    width: 20%;
+    min-width: 10%;
     text-align: right
 
 }
 
 .vegan {
-    color: green;
+    color: rgb(82, 226, 82)
 }
 .vegan h1 {
-    color: rgb(0, 77, 0)
+    color: rgb(82, 226, 82)
 }
 .vegan .price {
-    color: rgb(0, 77, 0)
+    color: rgb(96, 235, 96)
 }
 
 
@@ -154,8 +155,9 @@ info {
     display: block;
 }
 
-footinfo {
-    text-align: left
+footinfo p{
+    text-align: left;
+    padding: 0.4em;
 }
 
 /* NAVIGATION MENU */
@@ -169,6 +171,7 @@ footinfo {
     top: 0em;
     left: 0em;
     display: none;
+    font-size: 0.8em;
   }
 
   #navlinks {
@@ -199,7 +202,7 @@ footinfo {
 .bar1, .bar2, .bar3 {
   width: 35px;
   height: 5px;
-  background-color: #333;
+  background-color: rgb(10, 193, 248);
   margin: 6px 0;
   transition: 0.4s;
 }
@@ -252,16 +255,14 @@ footinfo {
     }
 
     .piatto > div {
-        width: 90%
+        max-width: 90%
     }
 
     .piatto .price {
-        width: 10%
+        min-width: 10%;
+        font-size: 1.2em;
     }
 
-    .section {
-        margin-top: 10em;
-    }
   }
   
 
@@ -281,13 +282,11 @@ footinfo {
         padding: 1em;
     }
     .piatto > div {
-        width: 90%
+        max-width: 90%
     }
 
     .piatto .price {
-        width: 10%
-    }
-    .section {
-        margin-top: 6em;
+        min-width: 10%;
+        font-size: 100%;
     }
   }
